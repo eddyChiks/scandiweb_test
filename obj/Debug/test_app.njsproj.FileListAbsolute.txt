@@ -1,0 +1,3 @@
+C:\Users\edwar\OneDrive\Documents\Codes\scandiweb\test_app\obj\Debug\test_app.njsproj.AssemblyReference.cache
+C:\Users\edwar\OneDrive\Documents\Codes\scandiweb\test_app\obj\Debug\test_app.njsproj.CoreCompileInputs.cache
+C:\Users\edwar\OneDrive\Documents\Codes\scandiweb\test_app\bin\Microsoft.NodejsTools.WebRole.dll

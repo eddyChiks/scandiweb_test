@@ -25,16 +25,6 @@ export default function Product_Add() {
         weight: null,
     })
     const [spec_input, setSpecinput] = useState("")
-    React.useEffect(() => {
-        //console.log(state)
-        //console.log(specstate)
-    })
-
-    function removeKey(key) {
-        const copy = specstate
-        delete copy[key]
-        setSpecstate(copy)
-    }
 
     const handleSubmit = (e) => {
         e.preventDefault()
@@ -48,16 +38,13 @@ export default function Product_Add() {
             },
             success(data) {
                 if (data['error']) {
-                    console.log("Still error")
                     alert(data['error'])
                 }
                 else {
-                    console.log("Everything ok")
                     navigateHome()
                 }
             },
             error: function (xhr, status, error) {
-                console.log("Error function")
                 console.log(xhr.responseText)
             }
         })

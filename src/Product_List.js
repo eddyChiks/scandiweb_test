@@ -44,7 +44,6 @@ export default function Product_List() {
                 fetchData()
             },
             error: function (xhr, status, error) {
-                console.log("Error function")
                 console.log(xhr.responseText)
             }
         })
